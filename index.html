@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivhu Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            RIVHU SHIL
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#projects">Project Details</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#recommendations">Recommendations</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about-section">
+
+        <div class="profile-image">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="profile">
+
+        </div>
+
+        <div class="about-text">
+
+            <h1>
+                Hi, I'm Rivhu Shil 👋
+            </h1>
+
+            <p>
+                I am a passionate Full Stack Developer and AI enthusiast pursuing Computer
+                Science Engineering with AIML specialization. I enjoy building scalable web
+                applications, AI projects, and modern responsive websites using technologies
+                like Python, Django, JavaScript, HTML, and CSS.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2 class="section-title">
+            Skills
+        </h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+
+                <h3>HTML</h3>
+
+                <p>2 Years Experience</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
+
+                <h3>CSS</h3>
+
+                <p>2 Years Experience</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+
+                <h3>JavaScript</h3>
+
+                <p>1 Year Experience</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+
+                <h3>Python</h3>
+
+                <p>2 Years Experience</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png">
+
+                <h3>Django</h3>
+
+                <p>1 Year Experience</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2 class="section-title">
+            Project Details
+        </h2>
+
+        <div class="project-card">
+
+            <h3>AI Voice Ticket System</h3>
+
+            <p>
+                Developed a voice-enabled smart ticket generation system using AI,
+                Speech Recognition, and Python.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Bluetooth Social Platform</h3>
+
+            <p>
+                Built a local communication platform connecting nearby users
+                using Bluetooth and Wi-Fi Direct technologies.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Food Ordering Web Application</h3>
+
+            <p>
+                Designed a responsive Django-based food ordering platform with
+                token generation and cloud kitchen management.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+
+    <section id="recommendations">
+
+        <h2 class="section-title">
+            Recommendations
+        </h2>
+
+        <div id="recommendation-list">
+
+            <div class="recommendation-card">
+                “Rivhu is highly dedicated and innovative in his work.”
+            </div>
+
+            <div class="recommendation-card">
+                “Excellent understanding of Full Stack Development and AI.”
+            </div>
+
+            <div class="recommendation-card">
+                “A quick learner with strong problem-solving abilities.”
+            </div>
+
+        </div>
+
+        <!-- FORM -->
+
+        <div class="recommendation-form">
+
+            <textarea id="new-recommendation"
+                placeholder="Write your recommendation here..."></textarea>
+
+            <button onclick="addRecommendation()">
+
+                Submit Recommendation
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- HOME ICON -->
+
+    <a href="#top" class="home-icon">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+            alt="Home">
+
+    </a>
+
+    <!-- POPUP -->
+
+    <div id="popup" class="popup">
+
+        <div class="popup-content">
+
+            <h2>✓</h2>
+
+            <p>
+                Thank you for leaving a recommendation!
+            </p>
+
+            <button onclick="closePopup()">
+
+                Ok
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
